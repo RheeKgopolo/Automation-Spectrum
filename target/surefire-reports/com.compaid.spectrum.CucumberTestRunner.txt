@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.compaid.spectrum.CucumberTestRunner
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 9.768 s <<< FAILURE! - in com.compaid.spectrum.CucumberTestRunner
+Then generated word forms another "rat" as defined by anagram(| tar | rat |)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+[ Anagram_word Comparison Check] 
+Expecting:
+ <"5 potential anagrams:
+tar
+art
+atr
+tra
+rta">
+to contain:
+ <"rat">
+ (ignoring case)
+
+| tar | rat |  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+[ Anagram_word Comparison Check] 
+Expecting:
+ <"5 potential anagrams:
+tar
+art
+atr
+tra
+rta">
+to contain:
+ <"rat">
+ (ignoring case)
+
+Then generated word forms another "desserts" as defined by anagram(| stressed | desserts |)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+[ Anagram_word Comparison Check] 
+Expecting:
+ <"5 potential anagrams:
+stesrdse
+dssertse
+seedsrst
+tdesrses
+dreestss">
+to contain:
+ <"desserts">
+ (ignoring case)
+
+| stressed | desserts |  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+[ Anagram_word Comparison Check] 
+Expecting:
+ <"5 potential anagrams:
+stesrdse
+dssertse
+seedsrst
+tdesrses
+dreestss">
+to contain:
+ <"desserts">
+ (ignoring case)
+

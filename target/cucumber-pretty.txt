@@ -1,0 +1,105 @@
+Feature: Anagram
+  As a user,
+  I would like to evaluate single words so that I can reproduce the letters in another order to form a new word
+
+  @RegressionTest
+  Scenario Outline: single word Anagram                                 [90m# Anagram.feature:6[0m
+    [36mGiven [0m[36mthat user is on the app Home Page[0m
+    [36mAnd [0m[36mselects "anagram"[0m
+    [36mWhen [0m[36muser enters a "<anagramWord>"[0m
+    [36mAnd [0m[36msubmits word entry[0m
+    [36mThen [0m[36mgenerated word forms another "<newWord>" as defined by anagram[0m
+    [36mAnd [0m[36muser closes app Home Page[0m
+
+    Examples: 
+
+  @RegressionTest
+  Scenario Outline: single word Anagram                           [90m# Anagram.feature:16[0m
+    [32mGiven [0m[32mthat user is on the app Home Page[0m                       [90m# StepDefinitions.that_user_is_on_the_app_Home_Page()[0m
+    [32mAnd [0m[32mselects "[0m[32m[1managram[0m[32m"[0m                                         [90m# StepDefinitions.selects(String)[0m
+    [32mWhen [0m[32muser enters a "[0m[32m[1mtar[0m[32m"[0m                                      [90m# StepDefinitions.user_enters_a(String)[0m
+    [32mAnd [0m[32msubmits word entry[0m                                        [90m# StepDefinitions.submits_word_entry()[0m
+    [31mThen [0m[31mgenerated word forms another "[0m[31m[1mrat[0m[31m" as defined by anagram[0m [90m# StepDefinitions.generated_word_forms_another_as_defined_by_anagram(String)[0m
+      [31mjava.lang.AssertionError: [ Anagram_word Comparison Check] 
+      Expecting:
+       <"5 potential anagrams:
+      tar
+      art
+      atr
+      tra
+      rta">
+      to contain:
+       <"rat">
+       (ignoring case)
+      	at Modules.AnagramAction.checkAnagram(AnagramAction.java:53)
+      	at cucumberStepDefinition.StepDefinitions.generated_word_forms_another_as_defined_by_anagram(StepDefinitions.java:102)
+      	at ✽.Then generated word forms another "rat" as defined by anagram(Anagram.feature:11)
+      [0m
+    [36mAnd [0m[36muser closes app Home Page[0m                                 [90m# StepDefinitions.user_closes_app_Home_Page()[0m
+
+  #      | cider       | cried     |
+  @RegressionTest
+  Scenario Outline: single word Anagram                                [90m# Anagram.feature:18[0m
+    [32mGiven [0m[32mthat user is on the app Home Page[0m                            [90m# StepDefinitions.that_user_is_on_the_app_Home_Page()[0m
+    [32mAnd [0m[32mselects "[0m[32m[1managram[0m[32m"[0m                                              [90m# StepDefinitions.selects(String)[0m
+    [32mWhen [0m[32muser enters a "[0m[32m[1mstressed[0m[32m"[0m                                      [90m# StepDefinitions.user_enters_a(String)[0m
+    [32mAnd [0m[32msubmits word entry[0m                                             [90m# StepDefinitions.submits_word_entry()[0m
+    [31mThen [0m[31mgenerated word forms another "[0m[31m[1mdesserts[0m[31m" as defined by anagram[0m [90m# StepDefinitions.generated_word_forms_another_as_defined_by_anagram(String)[0m
+      [31mjava.lang.AssertionError: [ Anagram_word Comparison Check] 
+      Expecting:
+       <"5 potential anagrams:
+      stesrdse
+      dssertse
+      seedsrst
+      tdesrses
+      dreestss">
+      to contain:
+       <"desserts">
+       (ignoring case)
+      	at Modules.AnagramAction.checkAnagram(AnagramAction.java:53)
+      	at cucumberStepDefinition.StepDefinitions.generated_word_forms_another_as_defined_by_anagram(StepDefinitions.java:102)
+      	at ✽.Then generated word forms another "desserts" as defined by anagram(Anagram.feature:11)
+      [0m
+    [36mAnd [0m[36muser closes app Home Page[0m                                      [90m# StepDefinitions.user_closes_app_Home_Page()[0m
+Feature: Login
+  As a user, I would like to calculate the value of two numbers so that my math is accurate
+
+  Background: user is logged in [90m# Login.feature:5[0m
+
+  @SmokeTest
+  Scenario: login app                     [90m# Login.feature:8[0m
+    [32mGiven [0m[32muser is on the "[0m[32m[1mPalindromePage[0m[32m"[0m [90m# StepDefinitions.user_is_on_the(String)[0m
+Feature: Palindrome
+  As a user,
+  I would like to evaluate single words so that I can list words that reads the same backward as forward defined as Palindromes
+
+  @RegressionTest
+  Scenario Outline: single word palindromes                                                 [90m# Palindrome.feature:6[0m
+    [36mGiven [0m[36mthat user is on the app Home Page[0m
+    [36mAnd [0m[36mselects "palindrome"[0m
+    [36mWhen [0m[36muser enters a "<palindromeWord>"[0m
+    [36mAnd [0m[36msubmits word entry[0m
+    [36mThen [0m[36mgenerated word reads the same backward as it does forward as defined by Palindrome[0m
+    [36mAnd [0m[36muser closes app Home Page[0m
+
+    Examples: 
+
+  @RegressionTest
+  Scenario Outline: single word palindromes                                                 [90m# Palindrome.feature:16[0m
+    [32mGiven [0m[32mthat user is on the app Home Page[0m                                                 [90m# StepDefinitions.that_user_is_on_the_app_Home_Page()[0m
+    [32mAnd [0m[32mselects "[0m[32m[1mpalindrome[0m[32m"[0m                                                                [90m# StepDefinitions.selects(String)[0m
+    [32mWhen [0m[32muser enters a "[0m[32m[1mmadam[0m[32m"[0m                                                              [90m# StepDefinitions.user_enters_a(String)[0m
+    [32mAnd [0m[32msubmits word entry[0m                                                                  [90m# StepDefinitions.submits_word_entry()[0m
+    [32mThen [0m[32mgenerated word reads the same backward as it does forward as defined by Palindrome[0m [90m# StepDefinitions.generated_word_reads_the_same_backward_as_it_does_forward_as_defined_by_Palindrome()[0m
+    [32mAnd [0m[32muser closes app Home Page[0m                                                           [90m# StepDefinitions.user_closes_app_Home_Page()[0m
+
+  #      | Kingkong       |
+  #      | Rotator        |
+  @RegressionTest
+  Scenario Outline: single word palindromes                                                 [90m# Palindrome.feature:19[0m
+    [32mGiven [0m[32mthat user is on the app Home Page[0m                                                 [90m# StepDefinitions.that_user_is_on_the_app_Home_Page()[0m
+    [32mAnd [0m[32mselects "[0m[32m[1mpalindrome[0m[32m"[0m                                                                [90m# StepDefinitions.selects(String)[0m
+    [32mWhen [0m[32muser enters a "[0m[32m[1mcivic[0m[32m"[0m                                                              [90m# StepDefinitions.user_enters_a(String)[0m
+    [32mAnd [0m[32msubmits word entry[0m                                                                  [90m# StepDefinitions.submits_word_entry()[0m
+    [32mThen [0m[32mgenerated word reads the same backward as it does forward as defined by Palindrome[0m [90m# StepDefinitions.generated_word_reads_the_same_backward_as_it_does_forward_as_defined_by_Palindrome()[0m
+    [32mAnd [0m[32muser closes app Home Page[0m                                                           [90m# StepDefinitions.user_closes_app_Home_Page()[0m

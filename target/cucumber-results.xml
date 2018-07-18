@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="2.950677">
+<testcase classname="Anagram" name="single word Anagram" time="1.258779">
+<failure message="java.lang.AssertionError: [ Anagram_word Comparison Check] &#13;&#10;Expecting:&#13;&#10; &lt;&quot;5 potential anagrams:&#10;tar&#10;art&#10;atr&#10;tra&#10;rta&quot;&gt;&#13;&#10;to contain:&#13;&#10; &lt;&quot;rat&quot;&gt;&#13;&#10; (ignoring case)&#13;&#10;&#9;at Modules.AnagramAction.checkAnagram(AnagramAction.java:53)&#13;&#10;&#9;at cucumberStepDefinition.StepDefinitions.generated_word_forms_another_as_defined_by_anagram(StepDefinitions.java:102)&#13;&#10;&#9;at ✽.Then generated word forms another &quot;rat&quot; as defined by anagram(Anagram.feature:11)&#13;&#10;"><![CDATA[Given that user is on the app Home Page.....................................passed
+And selects "anagram".......................................................passed
+When user enters a "tar"....................................................passed
+And submits word entry......................................................passed
+Then generated word forms another "rat" as defined by anagram...............failed
+And user closes app Home Page...............................................skipped
+
+StackTrace:
+java.lang.AssertionError: [ Anagram_word Comparison Check] 
+Expecting:
+ <"5 potential anagrams:
+tar
+art
+atr
+tra
+rta">
+to contain:
+ <"rat">
+ (ignoring case)
+	at Modules.AnagramAction.checkAnagram(AnagramAction.java:53)
+	at cucumberStepDefinition.StepDefinitions.generated_word_forms_another_as_defined_by_anagram(StepDefinitions.java:102)
+	at ✽.Then generated word forms another "rat" as defined by anagram(Anagram.feature:11)
+]]></failure>
+</testcase>
+<testcase classname="Anagram" name="single word Anagram 2" time="0.434925">
+<failure message="java.lang.AssertionError: [ Anagram_word Comparison Check] &#13;&#10;Expecting:&#13;&#10; &lt;&quot;5 potential anagrams:&#10;stesrdse&#10;dssertse&#10;seedsrst&#10;tdesrses&#10;dreestss&quot;&gt;&#13;&#10;to contain:&#13;&#10; &lt;&quot;desserts&quot;&gt;&#13;&#10; (ignoring case)&#13;&#10;&#9;at Modules.AnagramAction.checkAnagram(AnagramAction.java:53)&#13;&#10;&#9;at cucumberStepDefinition.StepDefinitions.generated_word_forms_another_as_defined_by_anagram(StepDefinitions.java:102)&#13;&#10;&#9;at ✽.Then generated word forms another &quot;desserts&quot; as defined by anagram(Anagram.feature:11)&#13;&#10;"><![CDATA[Given that user is on the app Home Page.....................................passed
+And selects "anagram".......................................................passed
+When user enters a "stressed"...............................................passed
+And submits word entry......................................................passed
+Then generated word forms another "desserts" as defined by anagram..........failed
+And user closes app Home Page...............................................skipped
+
+StackTrace:
+java.lang.AssertionError: [ Anagram_word Comparison Check] 
+Expecting:
+ <"5 potential anagrams:
+stesrdse
+dssertse
+seedsrst
+tdesrses
+dreestss">
+to contain:
+ <"desserts">
+ (ignoring case)
+	at Modules.AnagramAction.checkAnagram(AnagramAction.java:53)
+	at cucumberStepDefinition.StepDefinitions.generated_word_forms_another_as_defined_by_anagram(StepDefinitions.java:102)
+	at ✽.Then generated word forms another "desserts" as defined by anagram(Anagram.feature:11)
+]]></failure>
+</testcase>
+<testcase classname="Login" name="login app" time="0.001742">
+<system-out><![CDATA[Given user is on the "PalindromePage".......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Palindrome" name="single word palindromes" time="0.632911">
+<system-out><![CDATA[Given that user is on the app Home Page.....................................passed
+And selects "palindrome"....................................................passed
+When user enters a "madam"..................................................passed
+And submits word entry......................................................passed
+Then generated word reads the same backward as it does forward as defined by Palindrome.passed
+And user closes app Home Page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Palindrome" name="single word palindromes 2" time="0.62232">
+<system-out><![CDATA[Given that user is on the app Home Page.....................................passed
+And selects "palindrome"....................................................passed
+When user enters a "civic"..................................................passed
+And submits word entry......................................................passed
+Then generated word reads the same backward as it does forward as defined by Palindrome.passed
+And user closes app Home Page...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.compaid.spectrum.CucumberTestRunner" time="9.768" tests="30" errors="0" skipped="2" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Development\automation-spectrum\target\test-classes;C:\Development\automation-spectrum\target\classes;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\kgopolk\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\kgopolk\.m2\repository\org\junit\vintage\junit-vintage-engine\5.1.0\junit-vintage-engine-5.1.0.jar;C:\Users\kgopolk\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\kgopolk\.m2\repository\org\junit\platform\junit-platform-engine\1.1.0\junit-platform-engine-1.1.0.jar;C:\Users\kgopolk\.m2\repository\org\junit\platform\junit-platform-commons\1.1.0\junit-platform-commons-1.1.0.jar;C:\Users\kgopolk\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-picocontainer\1.2.5\cucumber-picocontainer-1.2.5.jar;C:\Users\kgopolk\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\kgopolk\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\kgopolk\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kgopolk\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\kgopolk\.m2\repository\org\assertj\assertj-core\3.6.2\assertj-core-3.6.2.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-java\2.42.0\selenium-java-2.42.0.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.42.0\selenium-chrome-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.42.0\selenium-remote-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\kgopolk\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.42.0\selenium-htmlunit-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.14\htmlunit-2.14.jar;C:\Users\kgopolk\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\kgopolk\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\kgopolk\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\kgopolk\.m2\repository\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;C:\Users\kgopolk\.m2\repository\org\apache\httpcomponents\httpmime\4.3.2\httpmime-4.3.2.jar;C:\Users\kgopolk\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\kgopolk\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.14\htmlunit-core-js-2.14.jar;C:\Users\kgopolk\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\kgopolk\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\kgopolk\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.20\nekohtml-1.9.20.jar;C:\Users\kgopolk\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.13\cssparser-0.9.13.jar;C:\Users\kgopolk\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\kgopolk\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\kgopolk\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.14.v20131031\jetty-websocket-8.1.14.v20131031.jar;C:\Users\kgopolk\.m2\repository\org\eclipse\jetty\jetty-util\8.1.14.v20131031\jetty-util-8.1.14.v20131031.jar;C:\Users\kgopolk\.m2\repository\org\eclipse\jetty\jetty-io\8.1.14.v20131031\jetty-io-8.1.14.v20131031.jar;C:\Users\kgopolk\.m2\repository\org\eclipse\jetty\jetty-http\8.1.14.v20131031\jetty-http-8.1.14.v20131031.jar;C:\Users\kgopolk\.m2\repository\org\apache\httpcomponents\httpclient\4.3.2\httpclient-4.3.2.jar;C:\Users\kgopolk\.m2\repository\org\apache\httpcomponents\httpcore\4.3.1\httpcore-4.3.1.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.42.0\selenium-firefox-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\kgopolk\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.42.0\selenium-ie-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\kgopolk\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.42.0\selenium-safari-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-support\2.42.0\selenium-support-2.42.0.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-api\2.42.0\selenium-api-2.42.0.jar;C:\Users\kgopolk\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\kgopolk\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\kgopolk\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\kgopolk\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\kgopolk\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\kgopolk\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\kgopolk\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\kgopolk\AppData\Local\Temp\surefire6401617033223871379\surefirebooter2789946204490005411.jar C:\Users\kgopolk\AppData\Local\Temp\surefire6401617033223871379 2018-07-11T15-37-17_024-jvmRun1 surefire9141334795258316147tmp surefire_02773318044902473865tmp"/>
+    <property name="test" value="CucumberTestRunner"/>
+    <property name="surefire.test.class.path" value="C:\Development\automation-spectrum\target\test-classes;C:\Development\automation-spectrum\target\classes;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\kgopolk\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\kgopolk\.m2\repository\org\junit\vintage\junit-vintage-engine\5.1.0\junit-vintage-engine-5.1.0.jar;C:\Users\kgopolk\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\kgopolk\.m2\repository\org\junit\platform\junit-platform-engine\1.1.0\junit-platform-engine-1.1.0.jar;C:\Users\kgopolk\.m2\repository\org\junit\platform\junit-platform-commons\1.1.0\junit-platform-commons-1.1.0.jar;C:\Users\kgopolk\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\kgopolk\.m2\repository\info\cukes\cucumber-picocontainer\1.2.5\cucumber-picocontainer-1.2.5.jar;C:\Users\kgopolk\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\kgopolk\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\kgopolk\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kgopolk\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\kgopolk\.m2\repository\org\assertj\assertj-core\3.6.2\assertj-core-3.6.2.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-java\2.42.0\selenium-java-2.42.0.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.42.0\selenium-chrome-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.42.0\selenium-remote-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\kgopolk\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.42.0\selenium-htmlunit-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.14\htmlunit-2.14.jar;C:\Users\kgopolk\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\kgopolk\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\kgopolk\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\kgopolk\.m2\repository\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;C:\Users\kgopolk\.m2\repository\org\apache\httpcomponents\httpmime\4.3.2\httpmime-4.3.2.jar;C:\Users\kgopolk\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\kgopolk\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.14\htmlunit-core-js-2.14.jar;C:\Users\kgopolk\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\kgopolk\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\kgopolk\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.20\nekohtml-1.9.20.jar;C:\Users\kgopolk\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.13\cssparser-0.9.13.jar;C:\Users\kgopolk\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\kgopolk\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\kgopolk\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.14.v20131031\jetty-websocket-8.1.14.v20131031.jar;C:\Users\kgopolk\.m2\repository\org\eclipse\jetty\jetty-util\8.1.14.v20131031\jetty-util-8.1.14.v20131031.jar;C:\Users\kgopolk\.m2\repository\org\eclipse\jetty\jetty-io\8.1.14.v20131031\jetty-io-8.1.14.v20131031.jar;C:\Users\kgopolk\.m2\repository\org\eclipse\jetty\jetty-http\8.1.14.v20131031\jetty-http-8.1.14.v20131031.jar;C:\Users\kgopolk\.m2\repository\org\apache\httpcomponents\httpclient\4.3.2\httpclient-4.3.2.jar;C:\Users\kgopolk\.m2\repository\org\apache\httpcomponents\httpcore\4.3.1\httpcore-4.3.1.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.42.0\selenium-firefox-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\kgopolk\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.42.0\selenium-ie-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\kgopolk\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.42.0\selenium-safari-driver-2.42.0.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-support\2.42.0\selenium-support-2.42.0.jar;C:\Users\kgopolk\.m2\repository\org\seleniumhq\selenium\selenium-api\2.42.0\selenium-api-2.42.0.jar;C:\Users\kgopolk\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\kgopolk\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\kgopolk\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\kgopolk\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\kgopolk\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\kgopolk\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\kgopolk\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kgopolk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_152\jre"/>
+    <property name="basedir" value="C:\Development\automation-spectrum"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\kgopolk\AppData\Local\Temp\surefire6401617033223871379\surefirebooter2789946204490005411.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="user.name" value="kgopolk"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kgopolk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kgopolk\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="user.dir" value="C:\Development\automation-spectrum"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Dell\Dell Data Protection\TSS\bin\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_152\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_152\bin;;C:\Program Files\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Given that user is on the app Home Page" classname="| tar | rat |" time="0.001"/>
+  <testcase name="And selects &quot;anagram&quot;" classname="| tar | rat |" time="0"/>
+  <testcase name="When user enters a &quot;tar&quot;" classname="| tar | rat |" time="0"/>
+  <testcase name="And submits word entry" classname="| tar | rat |" time="0"/>
+  <testcase name="Then generated word forms another &quot;rat&quot; as defined by anagram" classname="| tar | rat |" time="0.003">
+    <failure message="[ Anagram_word Comparison Check] &#10;Expecting:&#10; &lt;&quot;5 potential anagrams:&#10;tar&#10;art&#10;atr&#10;tra&#10;rta&quot;&gt;&#10;to contain:&#10; &lt;&quot;rat&quot;&gt;&#10; (ignoring case)" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+[ Anagram_word Comparison Check] 
+Expecting:
+ <"5 potential anagrams:
+tar
+art
+atr
+tra
+rta">
+to contain:
+ <"rat">
+ (ignoring case)
+]]></failure>
+    <system-err><![CDATA[[main] INFO helper.Log - Returned text  '5 potential anagrams:
+tar
+art
+atr
+tra
+rta' for element 'anagramResult'
+[main] INFO helper.Log - anagramValue: 5 potential anagrams:
+tar
+art
+atr
+tra
+rta
+]]></system-err>
+  </testcase>
+  <testcase name="| tar | rat |" classname="| tar | rat |" time="0.003">
+    <failure message="[ Anagram_word Comparison Check] &#10;Expecting:&#10; &lt;&quot;5 potential anagrams:&#10;tar&#10;art&#10;atr&#10;tra&#10;rta&quot;&gt;&#10;to contain:&#10; &lt;&quot;rat&quot;&gt;&#10; (ignoring case)" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+[ Anagram_word Comparison Check] 
+Expecting:
+ <"5 potential anagrams:
+tar
+art
+atr
+tra
+rta">
+to contain:
+ <"rat">
+ (ignoring case)
+]]></failure>
+  </testcase>
+  <testcase name="And user closes app Home Page" classname="| tar | rat |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given that user is on the app Home Page" classname="| stressed | desserts |" time="0"/>
+  <testcase name="And selects &quot;anagram&quot;" classname="| stressed | desserts |" time="0"/>
+  <testcase name="When user enters a &quot;stressed&quot;" classname="| stressed | desserts |" time="0"/>
+  <testcase name="And submits word entry" classname="| stressed | desserts |" time="0"/>
+  <testcase name="Then generated word forms another &quot;desserts&quot; as defined by anagram" classname="| stressed | desserts |" time="0.001">
+    <failure message="[ Anagram_word Comparison Check] &#10;Expecting:&#10; &lt;&quot;5 potential anagrams:&#10;stesrdse&#10;dssertse&#10;seedsrst&#10;tdesrses&#10;dreestss&quot;&gt;&#10;to contain:&#10; &lt;&quot;desserts&quot;&gt;&#10; (ignoring case)" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+[ Anagram_word Comparison Check] 
+Expecting:
+ <"5 potential anagrams:
+stesrdse
+dssertse
+seedsrst
+tdesrses
+dreestss">
+to contain:
+ <"desserts">
+ (ignoring case)
+]]></failure>
+    <system-err><![CDATA[[main] INFO helper.Log - Returned text  '5 potential anagrams:
+stesrdse
+dssertse
+seedsrst
+tdesrses
+dreestss' for element 'anagramResult'
+[main] INFO helper.Log - anagramValue: 5 potential anagrams:
+stesrdse
+dssertse
+seedsrst
+tdesrses
+dreestss
+]]></system-err>
+  </testcase>
+  <testcase name="| stressed | desserts |" classname="| stressed | desserts |" time="0.001">
+    <failure message="[ Anagram_word Comparison Check] &#10;Expecting:&#10; &lt;&quot;5 potential anagrams:&#10;stesrdse&#10;dssertse&#10;seedsrst&#10;tdesrses&#10;dreestss&quot;&gt;&#10;to contain:&#10; &lt;&quot;desserts&quot;&gt;&#10; (ignoring case)" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+[ Anagram_word Comparison Check] 
+Expecting:
+ <"5 potential anagrams:
+stesrdse
+dssertse
+seedsrst
+tdesrses
+dreestss">
+to contain:
+ <"desserts">
+ (ignoring case)
+]]></failure>
+  </testcase>
+  <testcase name="And user closes app Home Page" classname="| stressed | desserts |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user is on the &quot;PalindromePage&quot;" classname="Scenario: login app" time="0"/>
+  <testcase name="Scenario: login app" classname="Scenario: login app" time="0.002"/>
+  <testcase name="Given that user is on the app Home Page" classname="| madam |" time="0"/>
+  <testcase name="And selects &quot;palindrome&quot;" classname="| madam |" time="0"/>
+  <testcase name="When user enters a &quot;madam&quot;" classname="| madam |" time="0"/>
+  <testcase name="And submits word entry" classname="| madam |" time="0"/>
+  <testcase name="Then generated word reads the same backward as it does forward as defined by Palindrome" classname="| madam |" time="0.001"/>
+  <testcase name="And user closes app Home Page" classname="| madam |" time="0"/>
+  <testcase name="| madam |" classname="| madam |" time="0.001"/>
+  <testcase name="Given that user is on the app Home Page" classname="| civic |" time="0"/>
+  <testcase name="And selects &quot;palindrome&quot;" classname="| civic |" time="0"/>
+  <testcase name="When user enters a &quot;civic&quot;" classname="| civic |" time="0"/>
+  <testcase name="And submits word entry" classname="| civic |" time="0"/>
+  <testcase name="Then generated word reads the same backward as it does forward as defined by Palindrome" classname="| civic |" time="0"/>
+  <testcase name="And user closes app Home Page" classname="| civic |" time="0"/>
+  <testcase name="| civic |" classname="| civic |" time="0.001"/>
+</testsuite>

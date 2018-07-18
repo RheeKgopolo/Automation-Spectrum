@@ -1,0 +1,220 @@
+[
+  {
+    "source": "^selects \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "selects \"anagram\"",
+        "aggregatedDurations": {
+          "average": 0.000864385,
+          "median": 0.000864385
+        },
+        "durations": [
+          {
+            "duration": 0.001666811,
+            "location": "Anagram.feature:8"
+          },
+          {
+            "duration": 0.000061959,
+            "location": "Anagram.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "selects \"palindrome\"",
+        "aggregatedDurations": {
+          "average": 0.000076023,
+          "median": 0.000076023
+        },
+        "durations": [
+          {
+            "duration": 0.000081725,
+            "location": "Palindrome.feature:8"
+          },
+          {
+            "duration": 0.000070322,
+            "location": "Palindrome.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^that user is on the app Home Page$",
+    "steps": [
+      {
+        "name": "that user is on the app Home Page",
+        "aggregatedDurations": {
+          "average": 0.341230954,
+          "median": 0.151755132
+        },
+        "durations": [
+          {
+            "duration": 0.931870923,
+            "location": "Anagram.feature:7"
+          },
+          {
+            "duration": 0.151457121,
+            "location": "Anagram.feature:7"
+          },
+          {
+            "duration": 0.129542632,
+            "location": "Palindrome.feature:7"
+          },
+          {
+            "duration": 0.152053143,
+            "location": "Palindrome.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^generated word reads the same backward as it does forward as defined by Palindrome$",
+    "steps": [
+      {
+        "name": "generated word reads the same backward as it does forward as defined by Palindrome",
+        "aggregatedDurations": {
+          "average": 0.059863819,
+          "median": 0.059863819
+        },
+        "durations": [
+          {
+            "duration": 0.064793933,
+            "location": "Palindrome.feature:11"
+          },
+          {
+            "duration": 0.054933706,
+            "location": "Palindrome.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user closes app Home Page$",
+    "steps": [
+      {
+        "name": "user closes app Home Page",
+        "aggregatedDurations": {
+          "average": 0.215323569,
+          "median": 0.215323569
+        },
+        "durations": [
+          {
+            "duration": 0.227989438,
+            "location": "Palindrome.feature:12"
+          },
+          {
+            "duration": 0.2026577,
+            "location": "Palindrome.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^submits word entry$",
+    "steps": [
+      {
+        "name": "submits word entry",
+        "aggregatedDurations": {
+          "average": 0.111266241,
+          "median": 0.111749369
+        },
+        "durations": [
+          {
+            "duration": 0.12259752,
+            "location": "Anagram.feature:10"
+          },
+          {
+            "duration": 0.098968705,
+            "location": "Anagram.feature:10"
+          },
+          {
+            "duration": 0.110672499,
+            "location": "Palindrome.feature:10"
+          },
+          {
+            "duration": 0.11282624,
+            "location": "Palindrome.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on the \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user is on the \"PalindromePage\"",
+        "aggregatedDurations": {
+          "average": 0.001541754,
+          "median": 0.001541754
+        },
+        "durations": [
+          {
+            "duration": 0.001541754,
+            "location": "Login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters a \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters a \"tar\"",
+        "aggregatedDurations": {
+          "average": 0.128528481,
+          "median": 0.128528481
+        },
+        "durations": [
+          {
+            "duration": 0.128528481,
+            "location": "Anagram.feature:9"
+          }
+        ]
+      },
+      {
+        "name": "user enters a \"stressed\"",
+        "aggregatedDurations": {
+          "average": 0.134054237,
+          "median": 0.134054237
+        },
+        "durations": [
+          {
+            "duration": 0.134054237,
+            "location": "Anagram.feature:9"
+          }
+        ]
+      },
+      {
+        "name": "user enters a \"madam\"",
+        "aggregatedDurations": {
+          "average": 0.099595898,
+          "median": 0.099595898
+        },
+        "durations": [
+          {
+            "duration": 0.099595898,
+            "location": "Palindrome.feature:9"
+          }
+        ]
+      },
+      {
+        "name": "user enters a \"civic\"",
+        "aggregatedDurations": {
+          "average": 0.099530518,
+          "median": 0.099530518
+        },
+        "durations": [
+          {
+            "duration": 0.099530518,
+            "location": "Palindrome.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,629 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9821075,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "single word Anagram",
+        "description": "",
+        "id": "anagram;single-word-anagram;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 152807,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 931870923,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that user is on the app Home Page",
+            "match": {
+              "location": "StepDefinitions.that_user_is_on_the_app_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1666811,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects \"anagram\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anagram",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.selects(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128528481,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters a \"tar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tar",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.user_enters_a(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122597520,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "submits word entry",
+            "match": {
+              "location": "StepDefinitions.submits_word_entry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64141272,
+              "error_message": "java.lang.AssertionError: [ Anagram_word Comparison Check] \r\nExpecting:\r\n \u003c\"5 potential anagrams:\ntar\nart\natr\ntra\nrta\"\u003e\r\nto contain:\r\n \u003c\"rat\"\u003e\r\n (ignoring case)\r\n\tat Modules.AnagramAction.checkAnagram(AnagramAction.java:53)\r\n\tat cucumberStepDefinition.StepDefinitions.generated_word_forms_another_as_defined_by_anagram(StepDefinitions.java:102)\r\n\tat ✽.Then generated word forms another \"rat\" as defined by anagram(Anagram.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "generated word forms another \"rat\" as defined by anagram",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rat",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.generated_word_forms_another_as_defined_by_anagram(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user closes app Home Page",
+            "match": {
+              "location": "StepDefinitions.user_closes_app_Home_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 17,
+            "value": "#      | cider       | cried     |"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 139883,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "single word Anagram",
+        "description": "",
+        "id": "anagram;single-word-anagram;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 80584,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 151457121,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that user is on the app Home Page",
+            "match": {
+              "location": "StepDefinitions.that_user_is_on_the_app_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61959,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects \"anagram\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anagram",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.selects(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134054237,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters a \"stressed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stressed",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.user_enters_a(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98968705,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "submits word entry",
+            "match": {
+              "location": "StepDefinitions.submits_word_entry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50162861,
+              "error_message": "java.lang.AssertionError: [ Anagram_word Comparison Check] \r\nExpecting:\r\n \u003c\"5 potential anagrams:\nstesrdse\ndssertse\nseedsrst\ntdesrses\ndreestss\"\u003e\r\nto contain:\r\n \u003c\"desserts\"\u003e\r\n (ignoring case)\r\n\tat Modules.AnagramAction.checkAnagram(AnagramAction.java:53)\r\n\tat cucumberStepDefinition.StepDefinitions.generated_word_forms_another_as_defined_by_anagram(StepDefinitions.java:102)\r\n\tat ✽.Then generated word forms another \"desserts\" as defined by anagram(Anagram.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "generated word forms another \"desserts\" as defined by anagram",
+            "match": {
+              "arguments": [
+                {
+                  "val": "desserts",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.generated_word_forms_another_as_defined_by_anagram(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user closes app Home Page",
+            "match": {
+              "location": "StepDefinitions.user_closes_app_Home_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Anagram",
+    "description": "As a user,\r\nI would like to evaluate single words so that I can reproduce the letters in another order to form a new word",
+    "id": "anagram",
+    "keyword": "Feature",
+    "uri": "Anagram.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "user is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 108714,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "login app",
+        "description": "",
+        "id": "login;login-app",
+        "after": [
+          {
+            "result": {
+              "duration": 91228,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1541754,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the \"PalindromePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PalindromePage",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.user_is_on_the(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "As a user, I would like to calculate the value of two numbers so that my math is accurate",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 149766,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "single word palindromes",
+        "description": "",
+        "id": "palindrome;single-word-palindromes;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 85526,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 129542632,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that user is on the app Home Page",
+            "match": {
+              "location": "StepDefinitions.that_user_is_on_the_app_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81725,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects \"palindrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "palindrome",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.selects(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99595898,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters a \"madam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "madam",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.user_enters_a(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110672499,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "submits word entry",
+            "match": {
+              "location": "StepDefinitions.submits_word_entry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64793933,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "generated word reads the same backward as it does forward as defined by Palindrome",
+            "match": {
+              "location": "StepDefinitions.generated_word_reads_the_same_backward_as_it_does_forward_as_defined_by_Palindrome()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 227989438,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user closes app Home Page",
+            "match": {
+              "location": "StepDefinitions.user_closes_app_Home_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 17,
+            "value": "#      | Kingkong       |"
+          },
+          {
+            "line": 18,
+            "value": "#      | Rotator        |"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 182836,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "single word palindromes",
+        "description": "",
+        "id": "palindrome;single-word-palindromes;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 65380,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 152053143,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that user is on the app Home Page",
+            "match": {
+              "location": "StepDefinitions.that_user_is_on_the_app_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70322,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects \"palindrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "palindrome",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.selects(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99530518,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters a \"civic\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "civic",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.user_enters_a(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112826240,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "submits word entry",
+            "match": {
+              "location": "StepDefinitions.submits_word_entry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54933706,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "generated word reads the same backward as it does forward as defined by Palindrome",
+            "match": {
+              "location": "StepDefinitions.generated_word_reads_the_same_backward_as_it_does_forward_as_defined_by_Palindrome()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 202657700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user closes app Home Page",
+            "match": {
+              "location": "StepDefinitions.user_closes_app_Home_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Palindrome",
+    "description": "As a user,\r\nI would like to evaluate single words so that I can list words that reads the same backward as forward defined as Palindromes",
+    "id": "palindrome",
+    "keyword": "Feature",
+    "uri": "Palindrome.feature"
+  }
+]
